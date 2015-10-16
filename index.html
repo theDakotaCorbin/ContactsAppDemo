@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacts App</title>
+	<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    
+	
+	<div id="wrapper">
+		<h1>Contacts</h1>
+		<div class="tools">
+			Search:
+			<input type="text" id="searchBox" /><br/><br/>
+			<div id="filters"></div>
+			<div id="count"></div>
+		</div>
+		<ul id="listing"></ul>
+	</div>
+	
+	<script type="text/template" id="person-template">
+		<span class="list-header"><%= firstname %> <%= lastname %> (<%= type %>)</span>
+		<div class="details">
+			<strong>Street Address:</strong> <%= street %>
+            <br/>
+            <strong>City:</strong> <%= city %>
+            <br/>
+            <strong>State:</strong> <%= state %>
+            <br/>
+            <strong>Zip Code:</strong> <%= zip %>
+            <br/>
+            <strong>Phone Number:</strong> <%= phone %>
+		</div>
+	</script>
+	
+	<script src="data.json" type="text/javascript"></script>
+	
+	<script src="libs/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src="libs/underscore-min.js" type="text/javascript"></script>
+	<script src="libs/backbone-min.js" type="text/javascript"></script>
+	
+	<script src="Routers/router.js" type="text/javascript"></script>
+	<script src="Models/person-model.js" type="text/javascript"></script>
+	<script src="Views/person-views.js" type="text/javascript"></script>
+	
+	<script src="app.js" type="text/javascript"></script>
+	
+	
+</body>
+</html>

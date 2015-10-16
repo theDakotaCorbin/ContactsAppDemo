@@ -1,0 +1,101 @@
+var directoryData = [
+    {
+        "ID": "1",
+        "firstname": "John",
+        "lastname": "Smith",
+        "status": "Current Investigator",
+        "street": "1234 Somewhere Pl",
+        "city": "Somewhere",
+        "state": "UT",
+        "zip": "84664",
+        "phone": "8507589976"
+    },
+    {
+        "ID": "2",
+        "firstname": "Suzy",
+        "lastname": "Miller",
+        "status": "Inactive Member",
+        "street": "1234 Somewhere Pl",
+        "city": "Somewhere",
+        "state": "UT",
+        "zip": "84664",
+        "phone": "8507589976"
+    },
+    {
+        "ID": "3",
+        "firstname": "Mike",
+        "lastname": "Arnett",
+        "status": "Active Member",
+        "street": "1234 Somewhere Pl",
+        "city": "Somewhere",
+        "state": "UT",
+        "zip": "84664",
+        "phone": "8507589976"
+    },
+    {
+        "ID": "4",
+        "firstname": "Chandler",
+        "lastname": "Corbin",
+        "status": "Referral",
+        "street": "1234 Somewhere Pl",
+        "city": "Somewhere",
+        "state": "UT",
+        "zip": "84664",
+        "phone": "8507589976"
+    },
+    {
+        "ID": "5",
+        "firstname": "Rhonda",
+        "lastname": "Cawthon",
+        "status": "Current Investigator",
+        "street": "1234 Somewhere Pl",
+        "city": "Somewhere",
+        "state": "UT",
+        "zip": "84664",
+        "phone": "8507589976"
+    },
+    {
+        "ID": "6",
+        "firstname": "Carlos",
+        "lastname": "Jones",
+        "status": "Inactive Investigator",
+        "street": "1234 Somewhere Pl",
+        "city": "Somewhere",
+        "state": "UT",
+        "zip": "84664",
+        "phone": "8507589976"
+    },
+    {
+        "ID": "7",
+        "firstname": "Deanna",
+        "lastname": "Barton",
+        "status": "Active Member",
+        "street": "1234 Somewhere Pl",
+        "city": "Somewhere",
+        "state": "UT",
+        "zip": "84664",
+        "phone": "8507589976"
+    },
+    {
+        "ID": "8",
+        "firstname": "Rachel",
+        "lastname": "Adams",
+        "status": "Inactive Member",
+        "street": "1234 Somewhere Pl",
+        "city": "Somewhere",
+        "state": "UT",
+        "zip": "84664",
+        "phone": "8507589976"
+    },
+    {
+        "ID": "9",
+        "firstname": "Chris",
+        "lastname": "Johnson",
+        "status": "Referral",
+        "street": "1234 Somewhere Pl",
+        "city": "Somewhere",
+        "state": "UT",
+        "zip": "84664",
+        "phone": "8507589976"
+    }
+]
